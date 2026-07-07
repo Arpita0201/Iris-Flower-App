@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 #load model
-with open('iris_model.pkl','rb')as f:
+with open('iris_model.pkl','rb') as f:
     model=pickle.load(f)
 
 st.title("Iris Flower Classifier")
